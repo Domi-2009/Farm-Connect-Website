@@ -1,0 +1,625 @@
+body{
+    background-color: lightgreen;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0  ;
+}   
+
+nav ul li{
+    margin-left: 25px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+}
+
+.button{
+    display: flex;
+    gap: 15px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius:20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap:wrap;
+    margin: 50px auto;
+}
+
+.section2{
+    margin-top: 30px;
+}
+
+.section3{
+    display: flex;
+    justify-content: left;
+    gap: 30px;
+    flex-wrap:wrap;
+    margin: 50px auto;
+
+}
+.section5{
+    background-color:lightgray;
+}
+
+.section8{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap:wrap;
+    margin: 50px auto;
+}
+
+.section9{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap:wrap;
+    margin: 50px auto;
+}
+
+.section11{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap:wrap;
+    margin: 50px auto;
+}
+
+.section12{
+    background-color: lightblue;
+
+}
+
+.section13 h1{
+    text-align: center;
+}
+
+.section14{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+
+}
+
+.section15{
+    background-color: black;
+    color: white;
+}
+
+.section15 h2{
+    text-align: left;
+    font-size: 35px;
+}
+
+.section15 button{
+    border-radius: 20px;
+    background-color: rgba(109, 223, 109, 0.575);
+    padding: 15px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.Employee{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -40px;
+}
+
+.card{
+    width: 320px;
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid black;
+
+}
+
+.card1{
+    width: 1200px;
+    background: white;
+    padding: 35px 25px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid black;
+}
+
+.card2{
+    width: 1200px;
+    background: white;
+    padding: 35px 25px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid green;
+}
+
+.card3{
+    width: 1200px;
+    background: white;
+    padding: 35px 25px;
+    text-align: left;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid black;
+    margin-top: 35px;
+}
+
+.card4{
+    width: 320px;
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid black;
+    cursor: pointer;
+}
+
+.card5{
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px white;
+    transition: 0.3s;
+    border-top: 2px solid white;
+}
+
+.card6{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px white;
+    transition: 0.3s;
+    border-top: 2px solid white;
+    margin-left: 480px;
+    margin-top: 50px;
+}
+
+.card7{
+    width: 320px;
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid black;
+    cursor: pointer;
+}
+
+.card8{
+    width: 320px;
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid black;
+    cursor: pointer;
+}
+
+.card9{
+    width: 320px;
+    background: white;
+    padding: 35px 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 4px solid green;
+    cursor: pointer;
+}
+
+.card10{
+    display: flex;  
+    width: 150px;
+    background: white;
+    padding: 10px 1opx;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    border-top: 3px solid black;
+}
+
+.card5:hover{
+    transform: translateY(-8px);
+}
+.card:hover{
+    transform: translateY(-8px);
+}
+
+.card1:hover{
+    transform: translateY(-8px);
+}
+
+.card2:hover{
+    transform: translateY(-8px);
+}
+
+.card3:hover{
+    transform: translateY(-8px);
+}
+
+.card4:hover{
+    transform: translateY(-8px);
+}
+
+.card6:hover{
+    transform: translateY(-8px);
+}
+
+.card7:hover{
+    transform: translateY(-8px);
+}
+
+.card8:hover{
+    transform: translateY(-8px);
+}
+
+.card h3{
+    margin-bottom: 15px;
+}
+
+.card1 p{
+    font-size: 30px;
+}
+
+.card2 p{
+    font-size: 30px;
+}
+
+.card3 p{
+    font-size: 30px;
+}
+
+.card p{
+    color: black;
+    line-height: 1.6;
+}
+p{
+    font-size: 20px;
+}
+
+a{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+.heading2{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.paragraph1{
+    max-width: 500px;
+    font-size: 25px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.paragraph2{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+.paragraph3{
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia;
+    color: black;
+}
+
+.button{
+    display: flex;
+    padding: 12px;
+    margin-left: 30px;
+}
+
+.btn1{
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    background-color: lightgreen;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn2{
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn3{
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn4{
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn5{
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn6{
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn7{
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn8{
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn9{
+    padding: 10px;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.card9 img{
+    border-radius: 200px;
+}
+
+.btn6:hover{
+    color: black;
+    background-color: chartreuse;
+}
+
+.btn7:hover{
+    color: black;
+    background-color: chartreuse;
+}    
+
+.btn8:hover{
+    color: black;
+    background-color: chartreuse;
+}
+
+.btn9{
+    color: aquamarine;
+    background-color: black;
+}
+.image1{
+    border-radius: 10px;
+}
+
+
+.icon2{
+    font-size: 40px;
+}
+
+.icon3{
+    font-size: 40px;
+}
+
+.icon4{
+    font-size: 40px;
+}
+
+.icon5{
+     font-size: 20px;
+}
+
+.icon6{
+     font-size: 20px;
+}
+
+.icon7{
+    font-size: 40px;
+}
+
+.icon8{
+    font-size: 40px;
+}
+
+.footerimage{
+    height:30px;
+    width: 200px;
+}
+
+footer{
+    background-color:lightgreen;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+
+.signup{
+    background: linear-gradient(rgba(0,0,0,0.2)),url(Image2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+    background-color: aquamarine;
+}
+
+.signup nav{
+    background-color: black;
+}
+
+.signup nav ul li a {
+    color: white;
+}
+
+.signup h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+}
+
+.about h1{
+    text-align: center;
+}
+
+
+.about p{
+    font-size: 20px;
+}
+
+.login p{
+    text-align: center;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.form{
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 550px;
+}
+
+.form label{
+    margin-left: 75px;
+} 
+
+
+input{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 300px;
+    margin-left:20px;
+    border-radius: 20px;
+}
+
+.signup footer{
+    margin-top: 90px;
+    background-color: black;
+}
+
+.signup p{
+    color: white;
+    font-size: 30px;
+}
+
+.about h1{
+    font-size: 70PX;
+}
+
